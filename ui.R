@@ -7,12 +7,12 @@ library(dplyr)
 library(leaflet)
 library(shinycssloaders)
 library(shinythemes)
-library(datadigest)
+#library(datadigest)
 library(rio)
 library(DT)
 library(stargazer)
 
-
+#install.packages("datadigest")
 dashboardPage(
   dashboardHeader(title = "Machine Learning", dropdownMenuOutput("msgOutput")),
   dashboardSidebar(

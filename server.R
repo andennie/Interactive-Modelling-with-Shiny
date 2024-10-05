@@ -171,11 +171,11 @@ shinyServer(function(input, output, session) {
     
   })
   
-  output$digest <- renderExplorer({
+  #output$digest <- renderExplorer({
     
-    explorer(data = dd$data, demo = F)
+    #explorer(data = dd$data, demo = F)
     
-  })  
+  #})  
   
 })
 
